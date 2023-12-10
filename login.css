@@ -1,0 +1,95 @@
+ body{
+ 	background-size: cover;
+ }
+ .opt{
+ 	height: 600px;
+ 	width: 500px;
+ 	margin-top: 80px;
+ 	margin-left: 120px;
+ 	background-color: white;
+ 	opacity: 0.5;
+ 	border-radius: 20px;
+ }
+ .log h1{
+ 	font-size: 40px;
+ 	text-align: center;
+ 	margin-top: 30px;
+ }
+ .opt h4{
+ 	text-align: center;
+ }
+ .user{
+ 	line-height: 35px;
+ 	margin-left: 50px;
+ 	margin-top: 40px;
+ }
+ .user label{
+ 	font-size: 21px;
+ }
+ .user input{
+ 	width: 390px;
+ 	height: 30px;
+ 	border-radius: 30px;
+ }
+ .user i{
+ 	position: absolute;
+ 	margin-left: 370px;
+ 	margin-top: 45px;
+ }
+ .email{
+ 	line-height: 35px;
+ 	margin-left: 50px;
+ 	margin-top: 40px;
+ }
+ .email label{
+ 	font-size: 21px;
+ }
+ .email input{
+ 	width: 390px;
+ 	height: 30px;
+ 	border-radius: 30px;
+ }
+ .email i{
+ 	position: absolute;
+ 	margin-left: 370px;
+ 	margin-top: 45px;
+ }
+ .pass{
+ 	line-height: 35px;
+ 	margin-left: 50px;
+ 	margin-top: 40px;
+ }
+ .pass label{
+ 	font-size: 21px;
+ }
+ .pass input{
+ 	width: 390px;
+ 	height: 30px;
+ 	border-radius: 30px;
+ }
+ .pass i{
+ 	position: absolute;
+ 	margin-left: 370px;
+ 	margin-top: 45px;
+ }
+ 
+ .opt button{
+ 	height: 30px;
+ 	width: 400px;
+ 	margin-left: 50px;
+ 	margin-top: 50px;
+ 	background-color: green;
+ 	font-size: 20px;
+ 	font-weight: 40px;
+    cursor: pointer;
+ }
+ .opt button:hover{
+ 	background-color: brown;
+ }
+ 
+::-webkit-input-placeholder {
+    position: absolute;
+    margin-left: 18px;
+    font-size: 16px;
+}
+

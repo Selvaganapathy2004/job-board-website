@@ -1,0 +1,449 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: url('file:///C:/Users/SELVAGANAPATHY/Downloads/wallpaperflare.com_wallpaper%20(18).jpg');
+	
+}
+hr{
+	position: absolute;
+	width: 1000px;
+	margin-top: 30px;
+	margin-left: 270px;
+}
+ul li{
+	position: relative;
+	color: white;
+	display: inline-block;
+	margin-top: -10px;
+	padding: 60px;
+	font-size: 17px;
+	margin-left: -10px;
+	transition: 0.4s;
+}
+ul li:hover{
+	color: goldenrod;
+}
+.one{
+	position: absolute;
+	margin-top: -35px;
+}
+h3{
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	font-family: URW Chancery L, cursive;
+	letter-spacing: 7px;
+}
+.onee{
+	position: absolute;
+	background-color: white;
+	height: 500px;
+	width: 700px;
+	border-radius: 5px;
+	margin-left: 100px;
+	margin-top: 10px;
+	box-shadow: 0px 0px 4px 1px #565051;
+	transition: 0.5s;
+}
+.onee img{
+	position: absolute;
+	width: 700px;
+	height: 350px;
+	border-radius: 5px 5px 0px 0px;
+}
+.onee h5{
+	position: absolute;
+	margin-top: 410px;
+	font-size: 30px;
+	margin-left: 40px;
+}
+.onee h6{
+	position: absolute;
+	margin-top: 370px;
+	font-size: 20px;
+	margin-left: 40px;
+	color: #6D6968	;
+}
+.onee:hover{
+	transform: scale(0.9);
+}
+.tag1{
+	position: absolute;
+	background-color: #E5E4E2;
+	height: 120px;
+	width: 460px;
+	margin-left: 900px;
+	border-radius: 20px;
+	margin-top: 20px;
+	transition: 0.4s;
+}
+.tag1:hover{
+	transform: scale(1.1);
+}
+.tag1 img{
+	margin-top: -1px;
+	position: absolute;
+	margin-left: -2px;
+	height: 122px;
+	width: 170px;
+	border-radius: 20px 0px 0px 20px;
+}
+.tag1 h6{
+	position: absolute;
+	color: #6D6968;
+	font-size: 14px;
+	margin-left: 180px;
+	margin-top: 10px;
+}
+.tag1 h5{
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 35px;
+	font-size: 23px;
+}
+.tag1 p{
+	font-size: 14px;
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 95px;
+	color: blue;
+	cursor: pointer;
+}
+.tag1 i{
+	position: absolute;
+	margin-top: 92px;
+	margin-left:250px;
+	font-size: 24px;
+	color: blue;
+	cursor: pointer;
+}
+.tag1  p:hover{
+	color: red;
+}
+.tag1  i:hover{
+	color: red;
+}
+.tag2{
+	position: absolute;
+	background-color: #E5E4E2;
+	height: 120px;
+	width: 460px;
+	margin-left: 900px;
+	border-radius: 20px;
+	margin-top: 190px;
+	transition: 0.4s;
+}
+.tag2:hover{
+	transform: scale(1.1);
+}
+.tag2 img{
+	position: absolute;
+	margin-top: -1px;
+	margin-left: -2px;
+	height: 122px;
+	width: 170px;
+	border-radius: 20px 0px 0px 20px;
+}
+.tag2 h6{
+	position: absolute;
+	color: #6D6968;
+	font-size: 14px;
+	margin-left: 180px;
+	margin-top: 10px;
+}
+.tag2 h5{
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 35px;
+	font-size: 23px;
+}
+.tag2 p{
+	font-size: 14px;
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 95px;
+	color: blue;
+	cursor: pointer;
+}
+.tag2 i{
+	position: absolute;
+	margin-top: 92px;
+	margin-left:250px;
+	font-size: 24px;
+	color: blue;
+	cursor: pointer;
+}
+.tag2 p:hover{
+	color: red;
+}
+.tag2 i:hover{
+	color: red;
+}
+.tag3{
+	position: absolute;
+	background-color: #E5E4E2;
+	height: 120px;
+	width: 460px;
+	margin-left: 900px;
+	border-radius: 20px;
+	margin-top: 370px;
+	transition: 0.4s;
+}
+.tag3:hover{
+	transform: scale(1.1);
+}
+.tag3 img{
+	position: absolute;
+	margin-top: -1px;
+	margin-left: -2px;
+	height: 122px;
+	width: 170px;
+	border-radius: 20px 0px 0px 20px;
+}
+.tag3 h6{
+	position: absolute;
+	color: #6D6968;
+	font-size: 14px;
+	margin-left: 180px;
+	margin-top: 10px;
+}
+.tag3 h5{
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 35px;
+	font-size: 23px;
+}
+.tag3 p{
+	font-size: 14px;
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 95px;
+	color: blue;
+	cursor: pointer;
+}
+.tag3 i{
+	position: absolute;
+	margin-top: 92px;
+	margin-left:250px;
+	font-size: 24px;
+	color: blue;
+	cursor: pointer;
+}
+.tag3 p:hover{
+	color: red;
+}
+.tag3 i:hover{
+	color: red;
+}
+.onee2{
+	position: absolute;
+	margin-left: 320px;
+	margin-top: 470px;
+	cursor: pointer;
+}
+.tag4{
+	position: absolute;
+	background-color: white;
+	height: 240px;
+	width: 350px;
+	margin-top: 570px;
+	margin-left: 100px;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+.tag4 img{
+	position: absolute;
+	height: 150px;
+	width: 350px;
+	z-index: 1;
+	border-radius: 10px 10px 0px 0px;
+}
+.tag4 h6{
+	position: absolute;
+	color: #6D6968;
+	font-size: 19px;
+	margin-left: 20px;
+	margin-top: 155px;
+}
+.tag4 h5{
+	position: absolute;
+	z-index: 2;
+	font-size: 18px;
+	margin-top: 185px;
+	margin-left: 20px;
+}
+.tag4:hover{
+	transform: scale(1.1);
+}
+.tag5{
+	position: absolute;
+	background-color: white;
+	height: 240px;
+	width: 350px;
+	margin-top: 570px;
+	margin-left: 560px;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+.tag5 img{
+	position: absolute;
+	height: 150px;
+	width: 350px;
+	z-index: 1;
+	border-radius: 10px 10px 0px 0px;
+}
+.tag5 h6{
+	position: absolute;
+	color: #6D6968;
+	font-size: 19px;
+	margin-left: 20px;
+	margin-top: 155px;
+}
+.tag5 h5{
+	position: absolute;
+	z-index: 2;
+	font-size: 18px;
+	margin-top: 185px;
+	margin-left: 20px;
+}
+.tag5:hover{
+	transform: scale(1.1);
+}
+.tag6{
+	position: absolute;
+	background-color: white;
+	height: 240px;
+	width: 350px;
+	margin-top: 570px;
+	margin-left: 1000px;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+.tag6 img{
+	position: absolute;
+	height: 150px;
+	width: 350px;
+	z-index: 1;
+	border-radius: 10px 10px 0px 0px;
+}
+.tag6 h6{
+	position: absolute;
+	color: #6D6968;
+	font-size: 19px;
+	margin-left: 20px;
+	margin-top: 155px;
+}
+.tag6 h5{
+	position: absolute;
+	z-index: 2;
+	font-size: 18px;
+	margin-top: 185px;
+	margin-left: 20px;
+}
+.tag6:hover{
+	transform: scale(1.1);
+}
+.tag7{
+	position: absolute;
+	background-color: white;
+	height: 240px;
+	width: 350px;
+	margin-top: 870px;
+	margin-left: 100px;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+.tag7 img{
+	position: absolute;
+	height: 150px;
+	width: 350px;
+	z-index: 1;
+	border-radius: 10px 10px 0px 0px;
+}
+.tag7 h6{
+	position: absolute;
+	color: #6D6968;
+	font-size: 19px;
+	margin-left: 20px;
+	margin-top: 155px;
+}
+.tag7 h5{
+	position: absolute;
+	z-index: 2;
+	font-size: 18px;
+	margin-top: 185px;
+	margin-left: 20px;
+}
+.tag7:hover{
+	transform: scale(1.1);
+}
+.tag8{
+	position: absolute;
+	background-color: white;
+	height: 240px;
+	width: 350px;
+	margin-top: 870px;
+	margin-left: 560px;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+.tag8 img{
+	position: absolute;
+	height: 150px;
+	width: 350px;
+	z-index: 1;
+	border-radius: 10px 10px 0px 0px;
+}
+.tag8 h6{
+	position: absolute;
+	color: #6D6968;
+	font-size: 19px;
+	margin-left: 20px;
+	margin-top: 155px;
+}
+.tag8 h5{
+	position: absolute;
+	z-index: 2;
+	font-size: 18px;
+	margin-top: 185px;
+	margin-left: 20px;
+}
+.tag8:hover{
+	transform: scale(1.1);
+}
+.tag9{
+	position: absolute;
+	background-color: white;
+	height: 240px;
+	width: 350px;
+	margin-top: 870px;
+	margin-left: 1000px;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+.tag9 img{
+	position: absolute;
+	height: 150px;
+	width: 350px;
+	z-index: 1;
+	border-radius: 10px 10px 0px 0px;
+}
+.tag9 h6{
+	position: absolute;
+	color: #6D6968;
+	font-size: 19px;
+	margin-left: 20px;
+	margin-top: 155px;
+}
+.tag9 h5{
+	position: absolute;
+	z-index: 2;
+	font-size: 18px;
+	margin-top: 185px;
+	margin-left: 20px;
+}
+.tag9:hover{
+	transform: scale(1.1);
+}

@@ -1,0 +1,374 @@
+h1{
+    margin-top: -50px;
+    margin-left: 80px;
+    color: #660000;
+}
+h1 span{
+    font-size: 50px;
+    color:#FEFCFF;
+}
+ul li{
+    display: inline;
+    padding: 27px;
+    font-size: 20px;
+    cursor: pointer;
+}
+ul i{
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 5px;
+    font-size: 24px;
+
+}
+ul{
+    text-align: center;
+    margin-top: -60px;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 900;
+}
+body{
+    background-size: cover;
+    margin:0px;
+    padding: 0px;
+}
+.find{
+    float: right;
+    margin-top: 280px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-right: 90px;
+    margin-top: 170px;
+}
+.find span{
+    font-size: 60px;
+}
+.register{
+    float: right;
+    margin-right: -400px;
+    margin-top: -57px;
+    font-weight: 400;
+}
+.register span{
+    font-size: 20px;
+}
+button{
+    float: right;
+    margin-top: -53px;
+    margin-right: -520px;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: limegreen;
+    font-family: Serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.8s;
+    border: none;
+    box-shadow:1px 4px 7px 1px black;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: #03e9f4;
+    color: #333;
+    box-shadow: 0 0 5px #03e9f4;   
+}
+.icon{
+    margin-top: 40px;
+    margin-left: 19px;
+}
+ul li:after{
+    content: "";
+    position: absolute;
+    background-color: #7E3517;
+    height: 3px;
+    width: 0px;
+    margin-left: -81px;
+    margin-top: 36px;
+    transition: 0.4s;
+}
+ul li:hover:after{
+    width: 100px;
+}
+
+.search{
+    position: absolute;
+    margin-top: 360px;
+    margin-left:830px;
+    background-color: #0C090A;
+    opacity: 0.5;
+    height: 60px;
+    width: 600px;
+    border-radius: 40px;
+}
+.search input{
+    position: absolute;
+    height: 55px;
+    width: 505px;
+    margin-left: 39px;
+    margin-top: 0px;
+    background-color: #0C090A;
+    border: none;
+    color: white;
+    font-size: 20PX;
+    outline-style: none;
+}
+.search button{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 540px;
+    border-radius: 50%;
+    height: 50px;
+    width: 55px;
+    opacity: 1;
+}
+.down{
+    position: absolute;
+    color: black;
+    margin-top: 430px;
+    margin-left: 870px;
+    font-size: 13px;
+    font-family: serif;
+}
+.search button:hover{
+    background-color: #16F529;
+
+}
+::placeholder{
+    color: white;
+}
+.wave{
+    position: absolute;
+    margin-top: 396px;
+}
+.lap{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    margin-top: 115px;
+    margin-left: 120px;
+    z-index: -1;
+}
+
+.amazon{
+    position: absolute;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    height: 70px;
+    width: 70px;
+    margin-top: 200px;
+    margin-left: 500px;
+    box-shadow: 10px black;
+}
+.amazon:hover{
+    transform: scale(1.1);
+}
+.zoho{
+    position: absolute;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    height: 90px;
+    width: 90px;
+    margin-top: 380px;
+    margin-left: 460px;
+    box-shadow: 10px black;
+}
+.zoho:hover{
+    transform: scale(1.1);
+}
+.tcs{
+    position: absolute;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    height: 60px;
+    width: 60px;
+    margin-top: 200px;
+    margin-left: 200px;
+    box-shadow: 10px black;
+}
+.tcs:hover{
+    transform: scale(1.1);
+}
+.hcl{
+    position: absolute;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    height: 80px;
+    width: 80px;
+    margin-top: 280px;
+    margin-left: 46px;
+    box-shadow: 10px black;
+    z-index: -100;
+}
+.hcl:hover{
+    transform: scale(1.1);
+}
+.hdfc{
+    position: absolute;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    height: 70px;
+    width: 70px;
+    margin-top: 290px;
+    margin-left: 600px;
+    box-shadow: 10px black;
+}
+.hdfc:hover{
+    transform: scale(1.1);
+}
+.google{
+    position: absolute;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    height: 70px;
+    width: 70px;
+    margin-top: 60px;
+    margin-left:500px;
+    box-shadow: 10px black;
+}
+.google:hover{
+    transform: scale(1.1);
+}
+.microsoft{
+    position: absolute;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    height: 70px;
+    width: 70px;
+    margin-top: 70px;
+    margin-left:190px;
+    box-shadow: 10px black;
+}
+.microsoft:hover{
+    transform: scale(1.1);
+}
+.airtel{
+    position: absolute;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    height: 90px;
+    width: 90px;
+    margin-top: 0px;
+    margin-left:330px;
+    box-shadow: 10px black;
+}
+.airtel:hover{
+    transform: scale(1.1);
+}
+.walmart{
+    position: absolute;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    height: 90px;
+    width: 90px;
+    margin-top: 130px;
+    margin-left:50px;
+    box-shadow: 10px black;
+}
+.walmart:hover{
+    transform: scale(1.1);
+}
+.wipro{
+    position: absolute;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    height: 80px;
+    width: 90px;
+    margin-top: 130px;
+    margin-left:600px;
+    box-shadow: 10px black;
+}
+.wipro:hover{
+    transform: scale(1.1);
+}
+.upload{
+    position: absolute;
+    height: 30px;
+    margin-top: 570px;
+    margin-left: 275px;
+    z-index: 99;
+    cursor: pointer;
+}
+.upload:hover{
+    transform: scale(1.1);
+}
+.cv{
+    position: absolute;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    margin-top: 580px;
+    margin-left: 310px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cand h4{
+    position: absolute;
+    font-size: 16px;
+    margin-top: 540px;
+    margin-left: 955px;
+    font-family: fantasy;
+    font-weight: 10;
+}
+.cand img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.cand .i1{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 1080px;
+    background-color: white;
+}
+.cand .i2{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 1110px;
+}
+.cand .i3{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 1140px;
+}
+.cand .i4{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 1170px;
+}
+.cand .i5{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 1200px;
+}
+.i6{
+    position: absolute;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 530px;
+    margin-left: 1230px;
+    cursor: pointer;
+}
+.i6:hover{
+    transform: scale(1.2);
+}
+.blue{
+    position: absolute;
+    background-color: #1589FF;
+    height: 200px;
+    width: 100%;
+    margin-top: 700px;
+}
+.blue img{
+    position: absolute;
+    height: 200px;
+    width: 600px;
+    margin-top: -38px;
+    margin-left: 30px;
+}
+.blue .file{
+    position: absolute;
+    margin-top: ;
+    margin-left: 740px;
+    height: 15px;
+    width: 15px;
+}
+.blue h4{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 760px;
+    height: 15px;
+    width: 15px;
+}

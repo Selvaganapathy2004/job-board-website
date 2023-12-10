@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jobs</title>
+	<link rel="stylesheet" type="text/css" href="jobs.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<div class="circle" id="circle1">
+		
+		<div class="doctor">
+			<img src="file:///C:/Users/SELVAGANAPATHY/Downloads/5a221ac5935cd6.5447832415121845176036.png">
+			<h1>DOCTOR JOBS</h1><br>
+			<h4>Diagnoses, treats, and prevents illnesses<br>
+			    Collaborates with healthcare professionals</h4>
+		</div>
+		<div class="it">
+			<img src="file:///E:/pngegg.png">
+			<h1>IT JOBS</h1><br>
+			<h4>
+				Develops and maintains computer systems<br>Ensures network and cybersecurity measures
+			</h4>
+		</div>
+		<div class="chef">
+			<img src="file:///C:/Users/SELVAGANAPATHY/Downloads/pngegg.png">
+			<h1>CHEF JOBS</h1>
+			<h4>Cooks and presents food creatively<br>
+			    Manages kitchen staff and operations</h4>
+		</div>
+		<div class="market">
+			<img src="file:///C:/Users/SELVAGANAPATHY/Downloads/pngegg%20(1).png">
+			<h1>MARKETING JOBS</h1>
+			<h4>Develops and executes marketing strategies<br>
+			    Conducts market research and analyzes trends.
+			</h4>
+		</div>
+		<div class="teacher">
+			<img src="file:///C:/Users/SELVAGANAPATHY/Downloads/pngegg%20(2).png">
+			<h1>TEACHER JOBS</h1>
+			<h4>Instructs and guides students in a specific subject or grade<br>
+			Develops lesson plans and educational materials.
+			</h4>
+		</div>
+
+    <div class="feature">
+		<img src="file:///C:/Users/SELVAGANAPATHY/Downloads/32213.png" id="upbtn" >
+
+	<h3>Feature</h3>
+	<img src="file:///C:/Users/SELVAGANAPATHY/Downloads/54782.png"
+	 id="downbtn" >
+
+	</div>
+
+
+	</div>
+
+		<script>
+			var circle = document.getElementById("circle");
+			var upbtn = document.getElementById("upbtn");
+			var downbtn = document.getElementById("downbtn");
+
+			var rotatevalue = circle.style.transform;
+			var rotatesum;
+
+			upbtn.onclick = function()
+			{
+				rotatesum = rotatevalue + "rotate(-45deg)";
+				circle.style.transform = rotatesum;
+				rotatevalue = rotatesum;
+			}
+
+		</script>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.circle{
+	height: 800px;
+	width: 1000px;
+	position: absolute;
+	border-radius: 50%;
+	margin-top: 30px;
+	margin-left: -0px;
+	z-index: -1;
+	background-color: blue;
+	transform: rotate(0deg);
+}
+.circle h3{
+	position: absolute;
+	font-size: 30px;
+	margin-left: 440px;
+	margin-top: 220px;
+}
+	
+.doctor h1{
+	position: absolute;
+	top:310px;
+	margin-left: 640px;
+}
+.doctor h4{
+	position: absolute;
+	top:350px;
+	margin-left: 620px;
+}
+.doctor img{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	margin-top: 110px;
+	margin-left: 655px;
+}
+.it{
+	margin-top: 40px;
+}
+.it h1{
+	position: absolute;
+	margin-left: 130px;
+	margin-top: 560px;
+}
+.it h4{
+	position: absolute;
+	margin-top: 580px;
+	margin-left: 40px;
+}
+.it img{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	top: 430px;
+	left: 90px;
+}
+.chef{
+	position: absolute;
+	margin-left: 1200px;
+	margin-top: 530px;
+}
+.chef h1{
+	margin-left: 30px;
+}
+.chef img{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	margin-top: -200px;
+	margin-left: 20px;
+}
+.market{
+	position: absolute;
+	margin-top: 1050px;
+	margin-left: 230px;
+}
+.market h1{
+	margin-left: 8px;
+}
+.market img{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	margin-top: -200px;
+	margin-left: 50px;
+}
+.teacher{
+	position: absolute;
+	margin-top: 1050px;
+	margin-left: 950px;
+}
+.teacher h1{
+	margin-left: 60px;
+}
+.teacher img{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	margin-top: -180px;
+	margin-left: 80px;
+}
+h3{
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 600px;
+	font-size: 35px;
+	text-shadow: 5px 8px 9px #333;
+}
+.circle i:hover{
+	box-shadow: 0px 0px 10px 10px #4C4646;
+}
+#upbtn{
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	margin-left: 560px;
+	margin-top: 226px;
+	cursor: pointer;
+}
+#downbtn{
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	margin-left: 395px;
+	margin-top: 226px;
+	cursor: pointer;
+}
